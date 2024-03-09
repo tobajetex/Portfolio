@@ -72,7 +72,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: explorer,
+    img: exp,
     url: 'https://expeditionforall.netlify.app/',
     github: 'https://github.com/tobajetex/my-Backroad-app',
     title: 'Explorer',

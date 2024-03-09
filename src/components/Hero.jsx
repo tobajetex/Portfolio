@@ -16,13 +16,13 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="https://github.com/tobajetex">
+            <a href="#">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="https://www.linkedin.com/in/oloruntoba-jetawo-7b25a586/">
+            <a href="www.linkedin.com/in/oloruntoba-jetawo-7b25a586">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
+            <a href="https://github.com/tobajetex">
               <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
