@@ -6,10 +6,10 @@ const About = () => {
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} className="w-full h-64" />
         <article>
-          <SectionTitle text="code and coffee" />
+          <SectionTitle text="About Me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            👋 Hi, I'm [Your Name], a skilled web developer proficient in HTML,
-            CSS, and JavaScript. With a focus on creating captivating user
+            👋 Hi, I'm Oloruntoba jethro, a skilled web developer proficient in
+            HTML, CSS, and JavaScript. With a focus on creating captivating user
             interfaces, I bring designs to life using React and Next.js, while
             ensuring a seamless experience through my proficiency in Bootstrap
             and Tailwind CSS.
