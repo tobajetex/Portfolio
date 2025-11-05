@@ -20,6 +20,18 @@ export const skills = [
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
+    {
+    id: nanoid(),
+    title: 'HTML&CSS',
+    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+  },
+    {
+    id: nanoid(),
+    title: 'HTML&CSS',
+    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+  },
   {
     id: nanoid(),
     title: 'Javascript',
@@ -56,7 +68,7 @@ export const skills = [
 export const projects = [
     {
     id: nanoid(),
-    img: mix,
+    img: nobleman,
     url: 'http://nobleman.rf.gd/',
     github: '#',
     title: 'Nobleman',
@@ -64,7 +76,7 @@ export const projects = [
   },
     {
     id: nanoid(),
-    img: mix,
+    img: mindset,
     url: 'https://mindset.rf.gd/?i=1',
     github: '#',
     title: 'Solvatech',
