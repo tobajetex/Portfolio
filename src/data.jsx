@@ -54,6 +54,22 @@ export const skills = [
 ]
 
 export const projects = [
+    {
+    id: nanoid(),
+    img: mix,
+    url: 'http://nobleman.rf.gd/',
+    github: '#',
+    title: 'Nobleman',
+    text: 'Nobleman is an online destination for modern men, featuring stylish apparel, premium footwear, and signature fragrances designed to elevate your lifestyle',
+  },
+    {
+    id: nanoid(),
+    img: mix,
+    url: 'https://mindset.rf.gd/?i=1',
+    github: '#',
+    title: 'Solvatech',
+    text: 'At Solvatect, we transform ideas into powerful digital solutions. We help businesses grow with modern design, smart technology, and result-driven marketing. Our services are tailored to enhance brand identity, boost performance, and deliver exceptional user experiences.',
+  },
   {
     id: nanoid(),
     img: mix,
