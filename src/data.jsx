@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb } from "react-icons/si";
 //import { SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -21,23 +22,23 @@ export const skills = [
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
   },
-
   {
     id: nanoid(),
-    title: "Node Js",
-    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    title: "Node js",
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
     text: "Structuring applications into small, testable modules, managing dependencies with package.json, and understanding module resolution (local vs. core vs. node_modules).",
   },
   {
     id: nanoid(),
-    title: "Express Js",
-    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    title: "Express js",
+    icon: <SiExpress className="h-16 w-16 text-emerald-500" />,
     text: "Built RESTful APIs and web servers using Express.js. Implemented middleware for logging, authentication, error handling, and request parsing. Structured routes with express.Router().",
   },
+
   {
     id: nanoid(),
     title: "Mongo DB",
-    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    icon: <SiMongodb className="h-16 w-16 text-emerald-500" />,
     text: "Integrated MongoDB with Node.js applications using MongoClient and Mongoose. Managed connection pooling, error handling, and environment-based connection strings.",
   },
   {
